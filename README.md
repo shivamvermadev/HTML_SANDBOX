@@ -1,3 +1,3 @@
 #Contains HTML basics
 
-This file covers all the basics of HTML
+This file covers all the basics of HTML!
