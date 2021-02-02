@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div|Span|Class|Id</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- difference between id and class is that, one id name is unique to one element and class name can be used with multiple elements-->
+    <div id="main-header">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h1>About</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, iure? <span class="enhance"> ipsum dolor sit
+                amet consectetur adipisicing </span>elit. Quisquam dolorem, aliquid obcaecati aperiam quaerat
+            facilis. Rem, at neque? Eos, fuga.</p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contack Me</h3>
+        <ul>
+            <li>Address</li>
+            <li>Phone</li>
+            <li>Email</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; 2020</p> <!-- &copy is used for copyright symbol -->
+    </div>
+</body>
+
+</html>
